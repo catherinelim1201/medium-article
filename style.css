@@ -1,0 +1,64 @@
+
+.container {
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  opacity: 0.5;
+}
+
+p {
+  font-size: 18px;
+}
+
+.top-section {
+  color: white;
+  background-image: url("people_walking.jpg");
+  padding: 120px 0;
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+.bottom-section {
+  color: #494949;
+  display: block;
+  font-size: 18px;
+  font-weight: 100px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 auto;
+  width: 700px;
+}
+
+#link {
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  text-decoration: none;
+  /* font-style: italic; */
+  background: linear-gradient(#b0e2b5, #2ec693);
+  transition: 350ms all ease-out;
+}
+
+#link:hover {
+  background: linear-gradient(#5a825e, #7bdc78);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+
+  .bottom-section {
+    width: 100%;
+  }
+}
